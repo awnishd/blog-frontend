@@ -28,7 +28,7 @@ It also exports API_NOTIFICATION_MESSAGE and SERVICE_URL constants which are use
 
 
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://blognew-2h9y.onrender.com';
 const axiosInstance = axios.create({ // axios.create --> You can create a new instance of axios with a custom config.
 	baseURL: API_URL,
 	timeout: 30000,
